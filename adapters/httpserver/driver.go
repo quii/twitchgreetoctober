@@ -1,4 +1,4 @@
-package twitchgreetoctober
+package httpserver
 
 import (
 	"io"
