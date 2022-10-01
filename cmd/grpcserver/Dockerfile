@@ -8,7 +8,7 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o svr cmd/httpserver/*.go
+RUN go build -o svr cmd/grpcserver/*.go
 
 EXPOSE 8080
 CMD [ "./svr" ]

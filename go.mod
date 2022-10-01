@@ -4,7 +4,10 @@ go 1.18
 
 require (
 	github.com/alecthomas/assert/v2 v2.1.0
+	github.com/docker/go-connections v0.4.0
 	github.com/testcontainers/testcontainers-go v0.14.0
+	google.golang.org/grpc v1.49.0
+	google.golang.org/protobuf v1.28.0
 )
 
 require (
@@ -17,7 +20,6 @@ require (
 	github.com/containerd/containerd v1.6.8 // indirect
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker v20.10.17+incompatible // indirect
-	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
@@ -37,8 +39,7 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/net v0.0.0-20220909164309-bea034e7d591 // indirect
 	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
+	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/genproto v0.0.0-20220617124728-180714bec0ad // indirect
-	google.golang.org/grpc v1.49.0 // indirect
-	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
