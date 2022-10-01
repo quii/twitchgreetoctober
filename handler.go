@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
-var Handler = http.HandlerFunc(func(writer http.ResponseWriter, request *http.Request) {
-	fmt.Fprint(writer, "Hello, world")
+var Handler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+	name := r.URL.Query().Get("name")
+	fmt.Fprint(w, Greet(name))
 })
